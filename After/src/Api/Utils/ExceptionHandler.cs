@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 
 namespace Api.Utils
 {
+    // Custom Exception Handling Middleware
     public sealed class ExceptionHandler
     {
         private readonly RequestDelegate _next;
